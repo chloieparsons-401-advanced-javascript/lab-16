@@ -1,9 +1,11 @@
 'use strict';
 
-const EventEmitter = require('events').EventEmitter;
+/** @module myEventEmitter  */
 
-class myEventEmitter extends events (SEE VIDEO at 8:25-ish)
+const eventEmitter = require('events').eventEmitter;
 
-const events = new EE();
+class myEventEmitter extends eventEmitter {}
+
+const events = new myEventEmitter();
 
 module.exports = events;

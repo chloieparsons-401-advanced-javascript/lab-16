@@ -1,14 +1,13 @@
 'use strict';
 
-/**
- * @module logger
- */
+/** @module src/events/logger  */
+
 const events = require('./event');
 
 const logger = module.exports = exports = {};
 
 /**
- * Successful it will print 
+ * Successful it will print console.log 
  * @param {string} data - Data to print to screen
  */
 logger.log = (data) => {
@@ -17,7 +16,7 @@ logger.log = (data) => {
 
 /**
  * It console.logs errors when they occur
- * @param {string}
+ * @param {string} file - '<file> not saved'
  */
 logger.error = (file) => {
   console.error(`${file} not saved`);
