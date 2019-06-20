@@ -1,8 +1,12 @@
 'use strict';
+
 /**
- * @module SEE VIDEO 8:50
- */
-/**
- * Turns buffer to uppercase string
+ * Turns buffer into uppercase string
+ * @module toUpper
  * @param {Buffer}
  */
+
+ module.exports = (data) => {
+   data = Buffer.from(data);
+   return data.toString().toUpperCase();
+ };
