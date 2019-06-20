@@ -1,5 +1,16 @@
 'use strict';
 
-import { ModuleMap } from "jest-haste-map";
+module.exports = exports = {};
 
-module.exports = exports VIDEO 8:43
+const fs = require('fs');
+const util = require('util');
+const writeFile = util.promisify(fs.writeFile);
+const readFile = util.promisify(fs.readFile);
+
+/**
+ * Promisify Module for FS
+ * @module promisify
+ */
+
+ exports.writeFile = writeFile;
+ exports.readFile = readFile;
