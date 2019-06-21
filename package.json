@@ -4,6 +4,7 @@
   "description": "Events Lab",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "lint": "eslint \"**/*.js\"",
     "test-watch": "jest --watchAll",
     "test": "jest --verbose --coverage"
@@ -11,6 +12,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "jest": "^23.6.0"
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0",
+    "jsdoc": "^3.6.2",
+    "jsdocs": "^1.0.0"
   }
 }
