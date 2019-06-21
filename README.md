@@ -39,4 +39,4 @@
 * ```npm run lint```
 
 ## UML
-![TCP](assets/event.JPG)
+![Event](assets/event.JPG)
