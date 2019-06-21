@@ -6,7 +6,7 @@
  * @param {Buffer}
  */
 
- module.exports = (data) => {
-   data = Buffer.from(data);
-   return data.toString().toUpperCase();
- };
+module.exports = (data) => {
+  data = Buffer.from(data);
+  return data.toString().toUpperCase();
+};

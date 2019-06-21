@@ -12,5 +12,5 @@ const readFile = util.promisify(fs.readFile);
  * @module promisify
  */
 
- exports.writeFile = writeFile;
- exports.readFile = readFile;
+exports.writeFile = writeFile;
+exports.readFile = readFile;
